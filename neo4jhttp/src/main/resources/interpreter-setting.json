@@ -23,6 +23,7 @@
       }
     },
     "editor": {
+	  "language": "cypher",
       "editOnDblClick": false
     }
   }
