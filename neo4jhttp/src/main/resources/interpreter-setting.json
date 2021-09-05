@@ -1,0 +1,29 @@
+[
+  {
+    "group": "neo4jhttp",
+    "name": "neo4jhttp",
+    "className": "org.apache.zeppelin.graph.neo4jhttp.Neo4jHttpCypherInterpreter",
+    "properties": {
+      "neo4jhttp.url": {
+        "envName": null,
+        "propertyName": "neo4jhttp.url",
+        "defaultValue": "http://localhost:7474"
+      },
+      "neo4jhttp.auth.username": {
+        "envName": null,
+        "propertyName": "neo4jhttp.auth.username",
+        "defaultValue": "neo4j",
+        "description": "The Neo4j username."
+      },
+      "neo4jhttp.auth.password": {
+        "envName": null,
+        "propertyName": "neo4jhttp.auth.password",
+        "defaultValue": "",
+        "description": "The Neo4j user password."
+      }
+    },
+    "editor": {
+      "editOnDblClick": false
+    }
+  }
+]

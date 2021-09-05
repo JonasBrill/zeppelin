@@ -87,6 +87,7 @@
 <!--    <module>alluxio</module>-->
 <!--    <module>scio</module>-->
 <!--    <module>neo4j</module>-->
+    <module>neo4jhttp</module>
 <!--    <module>sap</module>-->
 <!--    <module>scalding</module>-->
 <!--    <module>java</module>-->
