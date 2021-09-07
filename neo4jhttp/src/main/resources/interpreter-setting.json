@@ -24,7 +24,8 @@
     },
     "editor": {
 	  "language": "cypher",
-      "editOnDblClick": false
+      "editOnDblClick": false,
+	  "completionSupport": true
     }
   }
 ]

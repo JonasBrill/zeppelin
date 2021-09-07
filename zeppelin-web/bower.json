@@ -59,7 +59,8 @@
         "src-noconflict/ext-language_tools.js",
         "src-noconflict/theme-chrome.js",
         "src-noconflict/mode-javascript.js",
-        "src-noconflict/mode-cypher.js"
+        "src-noconflict/mode-cypher.js",
+        "src-noconflict/snippets/cypher.js"
       ],
       "version": "1.3.2",
       "name": "ace-builds"

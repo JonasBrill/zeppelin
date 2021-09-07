@@ -7,7 +7,7 @@
   },
   "scripts": {
     "clean": "rimraf dist && rimraf .tmp",
-    "postinstall": "bower install --silent && cp ../neo4jhttp/mode-cypher.js ./bower_components/ace-builds/src-noconflict",
+    "postinstall": "bower install --silent && cp ../neo4jhttp/mode-cypher.js ./bower_components/ace-builds/src-noconflict && cp ../neo4jhttp/cypher.js ./bower_components/ace-builds/src-noconflict/snippets",
     "prebuild": "npm-run-all clean lint:once",
     "build:dist": "npm-run-all prebuild && grunt pre-webpack-dist && webpack && grunt post-webpack-dist",
     "build:ci": "npm-run-all prebuild && grunt pre-webpack-ci && webpack && grunt post-webpack-dist",
